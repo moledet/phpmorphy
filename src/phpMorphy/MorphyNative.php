@@ -535,7 +535,7 @@ class phpMorphy_MorphyNative implements phpMorphy_MorphyInterface {
 
         // common source
         // $this->__common_source = $this->createCommonSource($bundle, $this->options['common_source']);
-
+//        var_dump($graminfo,$gramtab,$graminfo_as_text,$bundle);die;
         $this->helper = $this->createMorphierHelper(
             $graminfo,
             $gramtab,

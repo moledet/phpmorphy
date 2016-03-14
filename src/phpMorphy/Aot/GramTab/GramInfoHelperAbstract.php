@@ -37,6 +37,8 @@ abstract class phpMorphy_Aot_GramTab_GramInfoHelperAbstract
                 return new phpMorphy_Aot_GramTab_GramInfoHelper_English();
             case 'german':
                 return new phpMorphy_Aot_GramTab_GramInfoHelper_German();
+            case 'ukrainian':
+                return new phpMorphy_Aot_GramTab_GramInfoHelper_Ukrainian();
             default: throw new phpMorphy_Exception("Unknown '$language' language");
         }
     }

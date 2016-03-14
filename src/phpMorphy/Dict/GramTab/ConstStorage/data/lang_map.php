@@ -23,6 +23,9 @@
 return array(
 	'ru_ru' => 'rus.xml',
 	'rus' => 'rus.xml',
+
+	'uk_ua' => 'ukr.xml',
+	'ukr' => 'ukr.xml',
 	
 	'en_en' => 'eng.xml',
 	'eng' => 'eng.xml',
@@ -31,7 +34,7 @@ return array(
 	'ger' => 'ger.xml',
 
         'specials' => 'specials.xml',
-	
+
 	// for all others
 	false => 'unk.xml'
 );
